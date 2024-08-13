@@ -11,13 +11,13 @@
         </ul>
         <p>{{ russianTexts.conclusion }}</p>
       </div>
-      <PetalAnimation />
+      
     </div>
   </template>
   
   <script setup>
   import { ref, onMounted, watch } from 'vue';
-  import PetalAnimation from '../components/PetalAnimation.vue';
+  
   
   // Japanese text to display
   const japaneseText = `日本語のコースへようこそ！このサイトは、日本語をゼロから学びたい方や、スキルを向上させたい方のためのものです。日本語の基本的な側面をカバーする構造的で楽しい学習を提供します。ヒラガナ、カタカナ、漢字を学ぶことで、日本語の読み書き、基本的なテキストの理解、簡単な会話ができるようになります。`;
